@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(https://img2.wallspic.com/crops/8/8/0/4/0/104088/104088-hito-7_maravillas_del_mundo-montaje_de_escenografia-atraccion_turistica-estacion_de_la_colina-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.titulos{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 5rem;
+}
+.titulo{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 4rem;
+}
+nav.menu {
+    display: flex;
+    justify-content: center;
+        flex-wrap: wrap;
+    gap: 2rem; /* Espacio entre enlaces */
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+nav.menu a {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+nav.menu a:hover{
+    transform: scale(1.1);
+
+}
+p{
+    font-size: 2.5rem;
+}
+.Introduccion{
+    background-color: rgba(240, 248, 255, 0.459);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.antiguas{
+    background-color: rgba(240, 248, 255, 0.459);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.nuevas{
+    background-color: rgba(240, 248, 255, 0.459);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
